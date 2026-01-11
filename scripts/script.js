@@ -16,9 +16,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
     if (window.scrollY > 100) {
-        header.style.background = 'rgba(44, 62, 80, 0.95)';
+        header.style.background = '#0053A2';
     } else {
-        header.style.background = '#2c3e50';
+        header.style.background = '#0053A2';
     }
 });
 
